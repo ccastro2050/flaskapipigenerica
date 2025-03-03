@@ -1,0 +1,14 @@
+{
+    "Jwt": {
+      "Key": "MySuperSecretKey1234567890!@#$%^&*()_+",
+      "Issuer": "MyApp",
+      "Audience": "MyAppUsers"
+    },
+    "ConnectionStrings": {
+      "SqlServer1": "mssql+pyodbc://FAMILIACL\\SQLEXPRESS/bdfacturas2?driver=SQL+Server&trusted_connection=yes&TrustServerCertificate=yes",
+      "SqlServer": "mssql+pyodbc://FAMILIACL/bdfacturas2?driver=SQL+Server&trusted_connection=yes&TrustServerCertificate=yes",
+      "LocalDb": "mssql+pyodbc://(localdb)\\MSSQLLocalDB/bdfacturas2?driver=SQL+Server&trusted_connection=yes"
+    },
+    "DatabaseProvider": "LocalDb"
+  }
+  
